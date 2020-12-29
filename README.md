@@ -1,6 +1,6 @@
 
 
-<h1 align="center">ScienceTagram</h1>
+<h1 align="center">React-Native JobFindApp</h1>
 
 
 
@@ -16,11 +16,9 @@
 <!-- OVERVIEW -->
 
 ## Overview
+[![](https://camo.githubusercontent.com/241d4106ff5edca2ee25e04dcf4546fad9d20b626f7a10990307e8f83e95459f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f796f75747562652d2532334646303030302e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d796f7574756265266c6f676f436f6c6f723d7768697465253232)](https://www.youtube.com/watch?v=fPdrPmHb4Fw)
 
-![screenshot](overview/1.gif)
-![screenshot](overview/2.gif)
-![screenshot](overview/3.gif)
-
+[![overview](https://r.resimlink.com/nKfZUuD.png)](https://www.youtube.com/watch?v=fPdrPmHb4Fw "ChatApp Overview")
 
 ### Built With
 
@@ -30,8 +28,10 @@
 - CSS
 - [React](https://reactjs.org/)
 - [React-Native](https://reactnative.dev/)
-- [React-Navigation](https://reactnavigation.org/)
 - [Axios](https://github.com/axios/axios)
+- [React-Native-Modal](https://github.com/react-native-modal/react-native-modal)
+- [React-Native-Async-Storage](https://react-native-async-storage.github.io/async-storage/)
+- [React-Native-Navigation](https://reactnavigation.org/)
 
 
 
@@ -43,28 +43,23 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 
-$ git clone https://github.com/efemevlut/ScienceTagram.git
-
+$ git clone https://github.com/efemevlut/React-Native-JobFindApp.git
 
 $ npm install
 
-$ npx react-native run-android
+$ npm install axios
+
+$ npm i react-native-modal
 
 $ npm install @react-navigation/native
 
 $ npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 
-$ npm install @react-navigation/stack
+$ npm install @react-native-async-storage/async-storage
 
-$ npm install axios
+$ npx react-native run-android
 
 ```
-
-## Acknowledgements
-
-
-
-- [Node.js](https://nodejs.org/)
 
 ## Contact
 
