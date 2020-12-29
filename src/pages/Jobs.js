@@ -82,9 +82,7 @@ const Jobs = (props) => {
               <Text>{selectedJob.company}</Text>
             </View>
             <View style={jobs.jobDesc}>
-              <WebView
-                source={{html: selectedJob.description}}
-              />
+              <WebView source={{html: selectedJob.description}} />
             </View>
             <Button title="Save" onPress={onJobSave} />
           </View>
